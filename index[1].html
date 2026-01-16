@@ -1,0 +1,528 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Fahey's $1,670 Bonus For RAPID Recurring Revenue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&amp;family=Inter:wght@400;500;600&amp;family=Dancing+Script:wght@700&amp;display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-body: #f4f7fc;
+            --bg-white: #ffffff;
+            --font-headline: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --font-script: 'Dancing Script', cursive;
+            --color-primary: #1e3a8a; /* Navy */
+            --color-secondary: #dd6b20; /* Burnt Orange */
+            --color-success: #2f855a; /* Green */
+            --text-dark: #1a202c;
+            --text-light: #4a5568;
+            --border-color: #e2e8f0;
+            --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.1);
+            --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.07);
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-body);
+            color: var(--text-dark);
+            margin: 0;
+            padding-top: 80px;
+            line-height: 1.8;
+            font-size: 18px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .sticky-header {
+            position: fixed; top: 0; left: 0; width: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(12px);
+            z-index: 1000; padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex; justify-content: space-around; align-items: center;
+        }
+        .sticky-header .logo-text {
+            font-family: var(--font-headline); font-weight: 700;
+            font-size: 1.2rem; color: var(--color-primary);
+        }
+        .cta-button-small {
+            font-family: var(--font-headline); font-size: 1rem; font-weight: 700;
+            padding: 12px 25px; text-decoration: none; border-radius: 8px;
+            color: white; background: var(--color-secondary);
+            box-shadow: 0 4px 15px rgba(221, 107, 32, 0.3);
+            transition: all 0.3s ease;
+        }
+        .cta-button-small:hover { transform: translateY(-3px); box-shadow: 0 7px 20px rgba(221, 107, 32, 0.5); }
+        .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+        .section {
+            background-color: var(--bg-white); padding: 60px 50px;
+            margin: 40px 0; border-radius: 24px; box-shadow: var(--shadow-lg);
+        }
+        .header .intro-script {
+            font-family: var(--font-script); font-size: 2.8rem;
+            color: var(--color-primary); text-align: center; margin-bottom: -20px;
+        }
+        .header .main-headline {
+            font-family: var(--font-headline); font-weight: 900;
+            font-size: clamp(3rem, 10vw, 5rem); color: var(--text-dark);
+            text-align: center; letter-spacing: -2px; line-height: 1.05; margin: 0;
+        }
+        .header .main-headline span { color: var(--color-primary); }
+        .header .sub-headline {
+            text-align: center; font-size: 1.3rem; max-width: 750px;
+            margin: 25px auto 35px auto; color: var(--text-light); font-weight: 400;
+        }
+        
+        .video-container {
+            position: relative; overflow: hidden; width: 100%;
+            padding-top: 56.25%; margin: 40px 0;
+            border-radius: 16px; box-shadow: var(--shadow-lg); background-color: #000;
+        }
+        .video-container iframe {
+            position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+            width: 100%; height: 100%;
+        }
+
+        /* --- NEW: Image Gallery Styles --- */
+        .image-gallery {
+            padding: 20px 0;
+            text-align: center;
+        }
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-md);
+        }
+        /* --- End Image Gallery Styles --- */
+
+        h2 {
+            font-family: var(--font-headline); font-weight: 700; font-size: 3rem;
+            text-align: center; margin-top: 0; margin-bottom: 40px;
+            color: var(--text-dark); line-height: 1.2;
+        }
+        .two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .product-overview img { max-width: 100%; border-radius: 16px; box-shadow: var(--shadow-md); }
+        .product-overview .rapid-list { list-style: none; padding-left: 0; }
+        .product-overview .rapid-list li { font-size: 1.1rem; margin-bottom: 15px; display: flex; align-items: flex-start; }
+        .product-overview .rapid-list .icon { color: var(--color-success); font-size: 1.5rem; margin-right: 15px; line-height: 1; }
+        
+        .bonus-section h3.bundle-title {
+            font-size: 2.5rem; text-align: center; margin: 60px 0 20px 0;
+            padding-top: 20px; border-top: 1px solid var(--border-color);
+        }
+        .bonus-section h3.bundle-title:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+        .bonus-card {
+            display: grid; grid-template-columns: 300px 1fr; gap: 50px;
+            align-items: center; padding: 40px 0; border-bottom: 1px solid var(--border-color);
+        }
+        .bonus-section .bonus-card:nth-child(even) { grid-template-columns: 1fr 300px; }
+        .bonus-section .bonus-card:nth-child(even) .bonus-image { grid-column: 2; }
+        .bonus-section .bonus-card:nth-child(even) .bonus-text { grid-column: 1; grid-row: 1; }
+        .bonus-card:last-child { border-bottom: none; }
+        .bonus-card img {
+            width: 100%; height: 300px; object-fit: cover; border-radius: 16px;
+            box-shadow: var(--shadow-md); transition: transform 0.3s ease;
+        }
+        .bonus-card:hover img { transform: scale(1.05); }
+        .bonus-card .bonus-number {
+            font-family: var(--font-headline); font-weight: 900;
+            color: var(--color-secondary); font-size: 1.2rem; margin-bottom: 5px;
+        }
+        .bonus-card h4 { font-size: 2.2rem; text-align: left; margin: 0 0 5px; color: var(--color-primary); }
+        .bonus-card .bonus-value { font-weight: 700; color: var(--text-light); margin-bottom: 15px; font-size: 1.1rem; }
+        .bonus-card p { margin: 0; color: var(--text-light); font-size: 1.05rem; }
+        
+        .anchor-bonus { text-align: center; }
+        .anchor-bonus .bonus-image-main { max-width: 400px; margin: 0 auto 30px; border-radius: 16px; box-shadow: var(--shadow-md); }
+        .anchor-bonus .bonus-number { font-size: 1.5rem; }
+        .anchor-bonus h4 { font-size: 2.8rem; text-align: center; margin-top: 20px; }
+        .anchor-bonus p { max-width: 700px; margin-left: auto; margin-right: auto; }
+
+        .value-stack-section { background-color: var(--bg-white); }
+        .value-stack-container { border: 1px solid var(--border-color); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-md); }
+        .stack-header { padding: 20px 30px; background-color: #fcfdff; border-bottom: 1px solid var(--border-color); }
+        .stack-header h3 { margin: 0; font-size: 1.8rem; color: var(--text-dark); }
+        .value-stack { list-style: none; padding: 0; margin: 0; }
+        .value-stack li { display: flex; justify-content: space-between; align-items: center; padding: 20px 30px; font-size: 1.1rem; border-bottom: 1px solid var(--border-color); }
+        .value-stack li:last-child { border-bottom: none; }
+        .value-stack .item-name { display: flex; align-items: center; font-weight: 500; }
+        .value-stack .item-name .icon { font-size: 1.5rem; margin-right: 15px; color: var(--color-success); }
+        .value-stack .item-value { font-family: var(--font-headline); font-weight: 700; font-size: 1.2rem; color: var(--text-dark); }
+        .value-stack .main-product .item-value { color: var(--color-success); }
+        .stack-footer { padding: 30px; text-align: center; background: linear-gradient(180deg, #f4f7fc, #eef2f9); }
+        .stack-footer p { margin: 0 0 10px; font-size: 1.5rem; font-weight: 600; color: var(--text-dark); }
+        .stack-footer .total-price { font-family: var(--font-headline); font-weight: 900; font-size: clamp(4rem, 15vw, 6rem); color: var(--color-secondary); line-height: 1; text-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+        .faq-section { text-align: left; }
+        .faq-item { border-bottom: 1px solid var(--border-color); padding: 25px 0; }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-item h4 { font-family: var(--font-headline); font-weight: 700; color: var(--color-primary); font-size: 1.4rem; margin: 0 0 10px 0; text-align: left; }
+        .faq-item p { margin: 0; color: var(--text-light); }
+
+        .cta-section { text-align: center; }
+        .countdown-timer { display: flex; justify-content: center; gap: 20px; margin-bottom: 40px; font-family: var(--font-headline); }
+        .countdown-timer div { background-color: var(--bg-body); padding: 15px 25px; border-radius: 12px; text-align: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.06); }
+        .countdown-timer span { display: block; font-size: 3rem; font-weight: 900; color: var(--color-primary); line-height: 1; }
+        .countdown-timer .label { font-size: 1rem; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 1px; margin-top: 5px; }
+        .cta-button { display: inline-block; position: relative; background: var(--color-secondary); color: var(--bg-white); font-family: var(--font-headline); font-size: 2rem; font-weight: 700; letter-spacing: 1px; padding: 25px 55px; text-decoration: none; border-radius: 12px; border: none; box-shadow: 0 5px 20px rgba(221, 107, 32, 0.4); transition: all 0.3s ease; overflow: hidden; z-index: 1; }
+        .cta-button:before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent); transition: all 0.6s ease; z-index: -1; }
+        .cta-button:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(221, 107, 32, 0.6); }
+        .cta-button:hover:before { left: 100%; }
+        .guarantee { border: 3px dashed var(--color-primary); padding: 35px; border-radius: 12px; text-align: center; margin-top: 40px; }
+        
+        #exit-popup-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(26, 32, 44, 0.8); backdrop-filter: blur(8px); z-index: 2000;
+            display: flex; justify-content: center; align-items: center;
+            opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        #exit-popup-overlay.visible { opacity: 1; visibility: visible; }
+        #exit-popup-container {
+            background: var(--bg-white); padding: 50px; border-radius: 24px; box-shadow: var(--shadow-lg);
+            text-align: center; max-width: 600px; width: 90%; position: relative;
+            transform: scale(0.9); transition: transform 0.3s ease;
+        }
+        #exit-popup-overlay.visible #exit-popup-container { transform: scale(1); }
+        #exit-popup-close {
+            position: absolute; top: 15px; right: 20px; font-size: 2.5rem;
+            color: var(--text-light); cursor: pointer; line-height: 1;
+        }
+        #exit-popup-container h2 {
+            font-family: var(--font-headline); font-size: 2.5rem; color: var(--color-primary);
+            margin-top: 0; margin-bottom: 10px;
+        }
+        #exit-popup-container p { color: var(--text-dark); font-size: 1.2rem; margin-bottom: 30px; }
+        .popup-cta-button {
+            display: inline-block; background: var(--color-success); color: white;
+            font-family: var(--font-headline); font-size: 1.5rem; font-weight: 700;
+            padding: 20px 40px; text-decoration: none; border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(47, 133, 90, 0.4); transition: all 0.3s ease;
+        }
+        .popup-cta-button:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(47, 133, 90, 0.6); }
+
+        footer { text-align: center; padding: 50px 20px 30px; }
+        .powered-by a { color: #aaa; text-decoration: none; }
+
+        @media (max-width: 768px) {
+            body { font-size: 16px; padding-top: 60px; }
+            .sticky-header { padding: 10px; }
+            .section { padding: 30px 20px; }
+            .two-column, .bonus-card, .bonus-section .bonus-card:nth-child(even) { grid-template-columns: 1fr; text-align: center; }
+            .bonus-section .bonus-card:nth-child(even) .bonus-image,
+            .bonus-section .bonus-card:nth-child(even) .bonus-text { grid-column: 1; grid-row: auto; }
+            .bonus-card img { margin: 0 auto 20px auto; max-width: 300px; height: 300px; }
+            .bonus-card h4 { text-align: center; }
+            .header .main-headline { font-size: 2.5rem; }
+            h2 { font-size: 2.2rem; }
+            .value-stack li { flex-direction: column; gap: 10px; text-align: center; }
+            .countdown-timer { gap: 10px; }
+            .countdown-timer div { padding: 10px; }
+            .countdown-timer span { font-size: 2rem; }
+            .countdown-timer .label { font-size: 0.75rem; }
+            .faq-item h4 { font-size: 1.2rem; }
+        }
+    </style>
+<link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/builder-frame.css"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/fontawesome.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/brands.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/solid.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/autocomplete.css"><script type="text/javascript" src="/builder/dist/iframe/events.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/jquery.min.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/tinymce/tinymce.min.js" builder-helper="true"></script><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"><link rel="stylesheet" href="/builder/dist/iframe/beeform.css"><script type="text/javascript" src="/builder/dist/iframe/beeform.js"></script><link rel="stylesheet" type="text/css" id="u0" href="https://virox.isolic.net/builder/dist/iframe/tinymce/skins/ui/oxide-dark/skin.min.css"><link rel="stylesheet" type="text/css" id="u1" href="https://virox.isolic.net/builder/dist/iframe/tinymce/skins/ui/oxide-dark/content.inline.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/builder-frame.css"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/fontawesome.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/brands.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/solid.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/autocomplete.css"><script type="text/javascript" src="/builder/dist/iframe/events.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/jquery.min.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/tinymce/tinymce.min.js" builder-helper="true"></script><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/builder-frame.css"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/fontawesome.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/brands.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/solid.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/autocomplete.css"><script type="text/javascript" src="/builder/dist/iframe/events.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/jquery.min.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/tinymce/tinymce.min.js" builder-helper="true"></script><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/builder-frame.css"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/fontawesome.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/brands.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/solid.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/autocomplete.css"><script type="text/javascript" src="/builder/dist/iframe/events.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/jquery.min.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/tinymce/tinymce.min.js" builder-helper="true"></script><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/builder-frame.css"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link builder-helper="true" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/fontawesome.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/brands.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/fontawesome-free/css/solid.min.css"><link builder-helper="true" rel="stylesheet" href="/builder/dist/iframe/autocomplete.css"><script type="text/javascript" src="/builder/dist/iframe/events.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/jquery.min.js" builder-helper="true"></script><script type="text/javascript" src="/builder/dist/iframe/tinymce/tinymce.min.js" builder-helper="true"></script></head>
+<body data-new-gr-c-s-check-loaded="14.1268.0" data-gr-ext-installed="" spellcheck="false" data-new-gr-c-s-loaded="14.1268.0">
+    <div class="sticky-header">
+        <div class="logo-text builder-class-element-selected mce-content-body" id="mce_0" contenteditable="true" style="position: relative;" spellcheck="false">Rigo Silva's Exclusive Bonus</div><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: auto; --rem: 16;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: auto; --rem: 16;"></grammarly-extension>
+        <a href="https://warriorplus.com/o2/a/c3d4f43/0" class="cta-button-small">Claim Your $1,670 AI Bonus Pack</a>
+    <grammarly-extension-vbars data-grammarly-shadow-root="true" class="dnXmp" style="display: contents; --rem: 16;"></grammarly-extension-vbars></div>
+
+    <div class="container">
+        <header class="header">
+            <p class="intro-script">Your Unfair Advantage Is Here</p>
+            <h1 class="main-headline">MASSIVE UPDATE: Get Rapid Recurring Revenue &amp; My <span class="">$1,670 AI-Powered Arsenal</span></h1>
+            <p class="sub-headline">This is the most complete package ever offered for building a profitable, low-stress membership site. Get the proven system, plus my entire collection of 10 custom-built bonuses (including my NEW AI Coach), absolutely FREE when you act today.</p>
+        </header>
+
+        <main class="">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/1155104481" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" class=""></iframe>
+            </div>
+
+            <!-- NEW: Image Gallery Section -->
+            <section class="section image-gallery">
+                <img src="https://kevinsfreegift.com/RapidRecurringBonus/ai1.jpg" alt="AI Coach Feature 1" class="builder-class-element-selected" style="width: 959.987px; height: 750.078px;">
+                <img src="https://kevinsfreegift.com/RapidRecurringBonus/ai2.jpg" alt="AI Coach Feature 2" class="">
+                <img src="https://kevinsfreegift.com/RapidRecurringBonus/ai4.jpg" alt="AI Coach Feature 3" class="">
+                <img src="https://kevinsfreegift.com/RapidRecurringBonus/ai3.jpg" alt="AI Coach Feature 4" class="">
+            </section>
+
+            <section class="section anchor-bonus">
+                <h2>Start With Your Game-Changing Anchor Bonus</h2>
+                <img src="https://kevinsfreegift.com/RapidRecurringBonus/raicoach.jpg" alt="Recurring Revenue AI Coach Graphic" class="bonus-image-main">
+                <p class="bonus-number">SPECIAL ANCHOR BONUS #1</p>
+                <h4 class="">Recurring Revenue AI Coach</h4>
+                <p class="bonus-value">(Value: $497)</p>
+                <p class="">This isn't just a tool; it's your new 24/7 business partner. My custom-built AI coach eliminates all guesswork. Need to plan your content? Scale your marketing? Improve retention? Just ask. The AI provides data-driven strategies, generates entire course modules, and even writes your promotional emails for you, in any niche. This is your ultimate unfair advantage.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="">Then Get The Proven Path to Predictable, Recurring Income.</h2>
+                <div class="two-column product-overview">
+                    <div>
+                        <p>Let's be blunt: the constant hustle for the "next sale" is a dead end. It’s why so many talented entrepreneurs burn out before they ever see real success.</p>
+                        <p>Shane Doyle's "Rapid Recurring Revenue" provides the escape route: The <strong>Fixed-Term Membership (FTM)</strong> model. It's a smarter way to build a real asset.</p>
+                        <ul class="rapid-list">
+                            <li><span class="icon">✓</span> <strong>Research hot niches filled with eager buyers.</strong></li>
+                            <li><span class="icon">✓</span> <strong>Assemble an entire year of premium content in just days.</strong></li>
+                            <li><span class="icon">✓</span> <strong>Plan your membership with simple tech that works flawlessly.</strong></li>
+                            <li><span class="icon">✓</span> <strong>Implement a launch strategy that attracts your ideal first members.</strong></li>
+                            <li><span class="icon">✓</span> <strong>Delight your members so they stay, pay, and sing your praises.</strong></li>
+                        </ul>
+                    </div>
+                    <img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Rapid Recurring Revenue Book Cover" class="">
+                </div>
+            </section>
+            
+            <section class="section bonus-section">
+                <div class="bonus-intro-header">
+                    <p class="intro-script">From the Desk of Kevin Fahey</p>
+                    <h2>I've Stacked The Rest Of The Deck In Your Favor.</h2>
+                    <p class="sub-headline" style="max-width: 700px; margin: auto;">A great system is the engine, but you still need the wheels, the fuel, and the GPS. To guarantee your success, I've created this entire suite of implementation bonuses to ensure you get from Zero to Profitable in record time.</p>
+                </div>
+                <div class="bonus-box">
+                    <h3 class="bundle-title">Your "First Adopter" Bonus Bundle</h3>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic" class=""></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #2</p><h4>Rapid Content Creation Templates</h4>
+                            <p class="bonus-value">(Value: $197)</p>
+                            <p>Create a full year of high-value membership content in just 7 days with these plug-and-play templates. These are the exact templates I use to create content that keeps members engaged and paying month after month.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic"></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #3</p><h4 class="">The Fixed-Term Retention Toolkit</h4>
+                            <p class="bonus-value">(Value: $147)</p>
+                            <p>A complete arsenal of done-for-you email sequences designed to maximize member satisfaction and minimize cancellations. Simply copy, paste, schedule, and watch your retention rates soar.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic" class=""></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #4</p><h4>The 7-Day Launch Accelerator</h4>
+                            <p class="bonus-value">(Value: $97)</p>
+                            <p>My step-by-step process for launching your membership and getting your first 25 paying members in just 7 days – even if you're starting from scratch with no list and no audience.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic"></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #5</p><h4>Million-Dollar Sales Letter Swipes</h4>
+                            <p class="bonus-value">(Value: $197)</p>
+                            <p>Copy-and-paste from my personal collection of high-converting sales letters specifically for membership sites. These proven templates have consistently generated impressive results for membership site owners.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic" class=""></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #6</p><h4>The RAPID TimeShift™ System Cheatsheet</h4>
+                            <p class="bonus-value">(Value: $47)</p>
+                            <p>A premium wall-ready infographic that condenses the entire system into a single powerful reference. Keep the core strategies visible at all times to maintain focus and implementation momentum.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="bundle-title">My Exclusive Launch Blueprint Bonuses</h3>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic" class=""></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #7</p><h4>The R.A.P.I.D. Launch Blueprint</h4>
+                            <p class="bonus-value">(Value: $197)</p>
+                            <p>This is your strategic battle plan. We go beyond the main guide, diving deep into advanced market analysis, competitor espionage, and the psychological triggers that make your launch an unforgettable event.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic"></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #8</p><h4 class="">The High-Conversion Sales Page Masterclass</h4>
+                            <p class="bonus-value">(Value: $97)</p>
+                            <p class="">Receive my personal swipe file of proven headline formulas and a masterclass on the 10 conversion-critical elements of a sales page. This is your key to turning clicks into paying members, 24/7.</p>
+                        </div>
+                    </div>
+                     <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic" class=""></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #9</p><h4>The First Month Member Retention Masterplan</h4>
+                            <p class="bonus-value">(Value: $97)</p>
+                            <p>The first 30 days determine your success. This masterplan gives you the exact content &amp; email framework to create powerful 'quick wins' for your members, virtually eliminating early cancellations.</p>
+                        </div>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-image"><img src="https://kevinsfreegift.com/RapidRecurringBonus/shaneb.jpg" alt="Bonus Graphic"></div>
+                        <div class="bonus-text">
+                            <p class="bonus-number">BONUS #10</p><h4>The FTM Idea-Spark Matrix</h4>
+                            <p class="bonus-value">(Value: $97)</p>
+                            <p>This guide obliterates the "I don't have an idea" roadblock. You get a curated library of 50 profitable and in-demand membership ideas, each with a specific 'FTM Angle' to turn it into a tangible business model.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section value-stack-section">
+                <h2 class="">Here's A Summary Of Everything You Get Today</h2>
+                <p class="sub-headline" style="max-width: 700px; margin: -20px auto 40px auto;">An Unbeatable Combination of Strategy &amp; Implementation.</p>
+                <div class="value-stack-container">
+                    <div class="stack-header"><h3 class="">YOUR INVOICE:</h3></div>
+                    <ul class="value-stack">
+                        <li class="main-product">
+                            <span class="item-name"><span class="icon">✓</span> Rapid Recurring Revenue System</span>
+                            <span class="item-value">CORE SYSTEM</span>
+                        </li>
+                        <li><span class="item-name"><span class="icon">+</span> <strong>Recurring Revenue AI Coach</strong></span><span class="item-value"><strong>$497.00</strong></span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> Rapid Content Creation Templates</span><span class="item-value">$197.00</span></li>
+                        <li><span class="item-name"><span class="icon">+</span> The Fixed-Term Retention Toolkit</span><span class="item-value">$147.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> The 7-Day Launch Accelerator</span><span class="item-value">$97.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> Million-Dollar Sales Letter Swipes</span><span class="item-value">$197.00</span></li>
+                        <li><span class="item-name"><span class="icon">+</span> The RAPID TimeShift™ Cheatsheet</span><span class="item-value">$47.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> The R.A.P.I.D. Launch Blueprint</span><span class="item-value">$197.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> High-Conversion Sales Page Masterclass</span><span class="item-value">$97.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> First Month Member Retention Masterplan</span><span class="item-value">$97.00</span></li>
+                        <li class=""><span class="item-name"><span class="icon">+</span> The FTM Idea-Spark Matrix</span><span class="item-value">$97.00</span></li>
+                    </ul>
+                    <div class="stack-footer">
+                        <p class="">Total Value You Get FREE:</p>
+                        <div class="total-price">$1,670</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section faq-section">
+                <h2 class="">Frequently Asked Questions</h2>
+                <div class="faq-item"><h4>What if I'm a complete beginner?</h4><p class="">This entire package is designed for you. The Rapid Recurring Revenue system provides the A-Z blueprint, and my bonus package (especially the AI Coach and the Launch Accelerator) is built to take you from zero to a paying membership, even if you've never done this before.</p></div>
+                <div class="faq-item"><h4>What if I don't have an idea for a membership site?</h4><p>Bonus #10, "The FTM Idea-Spark Matrix," is your solution. It gives you 50 profitable and proven membership ideas you can adapt and launch with. You don't need to bring an idea; you'll leave with a business plan.</p></div>
+                <div class="faq-item"><h4>What makes the Recurring Revenue AI Coach so special?</h4><p>Unlike generic AI tools, this coach is custom-trained on successful membership site data. It doesn't just write; it strategizes. It helps you plan content that increases retention, suggests marketing angles based on your niche, and writes emails that are proven to convert for this specific business model. It's like having a seasoned membership site expert on your team 24/7.</p></div>
+                <div class="faq-item"><h4>Who is this for?</h4><p class="">This is for coaches, consultants, course creators, experts, and anyone tired of the feast-or-famine cycle of one-off sales. If you want to build a predictable, recurring income stream with a real, sellable asset, this is the most complete system available today.</p></div>
+                <div class="faq-item"><h4 class="">How do I get access to your $1,670 bonus package?</h4><p class="">It's simple. Once you purchase Rapid Recurring Revenue through the link on this page, you'll get immediate access to the core product and instructions on how to access my entire bonus arsenal instantly.</p></div>
+                <div class="faq-item"><h4 class="">Is there a guarantee?</h4><p class="">Absolutely. You're covered by Shane's 30-day, no-questions-asked money-back guarantee. If you're not thrilled, you get a full refund. And my personal promise is that you get to KEEP my entire $1,670 bonus package no matter what. There is zero risk to you.</p></div>
+            </section>
+
+            <section id="cta" class="section cta-section">
+                <h2 class="">Your Recurring Revenue Business Is One Click Away.</h2>
+                <p class="sub-headline">This special offer and the new AI Coach bonus disappears when the timer hits zero.</p>
+                
+                <div class="countdown-timer" id="countdown-timer">
+                    <div><span id="days">02</span><div class="label">Days</div></div>
+                    <div><span id="hours">09</span><div class="label">Hours</div></div>
+                    <div><span id="minutes">40</span><div class="label">Minutes</div></div>
+                    <div><span id="seconds">48</span><div class="label">Seconds</div></div>
+                </div>
+
+                <a href="https://warriorplus.com/o2/a/c3d4f43/0" class="cta-button" target="_blank">Click Here To Secure Your Copy &amp; Bonuses!</a>
+                <div class="guarantee">
+                    <h3 class="">My "Keep Everything" Personal Guarantee</h3>
+                    <p class="">Your purchase is fully protected by Shane's 30-day, no-questions-asked money-back guarantee. If you don't feel it's worth 10 times the tiny investment, get a full refund. And as a mark of my total confidence in this system, you get to <strong class="">KEEP my entire $1,670 bonus package as my gift to you</strong>, no matter what you decide.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="builder-class-element-selected">
+            <p class="powered-by"><a href="https://warriorplus.com/o2/a/nz8nl6v/0" target="_blank" class="builder-class-element-selected">Powered by Bonus Builder AI</a></p>
+        </footer>
+    </div>
+
+    <div id="exit-popup-overlay" class="">
+        <div id="exit-popup-container" class="">
+            <div id="exit-popup-close" class="">×</div>
+            <h2 class="">NOT INTERESTED?</h2>
+            <p class="">Just Want To See Results With Jim Daniels?</p>
+            <a href="https://warriorplus.com/o2/a/wydm7nl/0" target="_blank" class="popup-cta-button builder-class-element-selected">Click Here For A FREE Demonstration</a>
+        </div>
+    </div>
+
+<script>
+    function setCountdown() {
+        const now = new Date();
+        const dayOfWeek = now.getDay();
+        const daysUntilSunday = dayOfWeek === 0 ? 0 : 7 - dayOfWeek;
+        let targetDate = new Date();
+        targetDate.setDate(now.getDate() + daysUntilSunday);
+        const estOffset = -5 * 60;
+        const localOffset = -new Date().getTimezoneOffset();
+        const totalOffset = estOffset - localOffset;
+        targetDate = new Date(targetDate.getTime() + totalOffset * 60 * 1000);
+        targetDate.setHours(23, 59, 59, 999);
+        const x = setInterval(function() {
+            const now_utc = new Date().getTime();
+            const distance = targetDate.getTime() - now_utc;
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            if (document.getElementById("days")) {
+                document.getElementById("days").innerHTML = String(days < 0 ? 0 : days).padStart(2, '0');
+                document.getElementById("hours").innerHTML = String(hours < 0 ? 0 : hours).padStart(2, '0');
+                document.getElementById("minutes").innerHTML = String(minutes < 0 ? 0 : minutes).padStart(2, '0');
+                document.getElementById("seconds").innerHTML = String(seconds < 0 ? 0 : seconds).padStart(2, '0');
+            }
+            if (distance < 0) {
+                clearInterval(x);
+                if (document.getElementById("countdown-timer")) {
+                    document.getElementById("countdown-timer").innerHTML = "<h3 style='color: var(--color-secondary); font-size: 1.5rem;'>SPECIAL OFFER EXPIRED</h3>";
+                }
+                const ctaButton = document.querySelector('.cta-button');
+                if(ctaButton) {
+                    ctaButton.style.backgroundColor = '#aaa';
+                    ctaButton.style.pointerEvents = 'none';
+                    ctaButton.innerHTML = "Sorry, This Offer Has Ended";
+                }
+            }
+        }, 1000);
+    }
+    setCountdown();
+
+    const popupOverlay = document.getElementById('exit-popup-overlay');
+    if (popupOverlay) {
+        const closeButton = document.getElementById('exit-popup-close');
+        let popupShown = sessionStorage.getItem('exitPopupShown') === 'true';
+
+        const showPopup = () => {
+            if (!popupShown) {
+                popupOverlay.classList.add('visible');
+                sessionStorage.setItem('exitPopupShown', 'true');
+                popupShown = true;
+            }
+        };
+
+        const hidePopup = () => {
+            popupOverlay.classList.remove('visible');
+        };
+
+        document.addEventListener('mouseleave', (e) => {
+            if (e.clientY < 10) {
+                showPopup();
+            }
+        });
+
+        if (closeButton) {
+            closeButton.addEventListener('click', hidePopup);
+        }
+        
+        popupOverlay.addEventListener('click', (e) => {
+            if (e.target === popupOverlay) {
+                hidePopup();
+            }
+        });
+    }
+</script>
+
+<div role="application" tabindex="-1" class="tox tox-tinymce tox-tinymce-inline tox-toolbar-dock-transition tox-toolbar-dock-fadein" style="visibility: hidden; position: absolute; top: 24px; left: 123px; display: none;"><div class="tox-editor-container"><div class="tox-toolbar-overlord"><div role="group" class="tox-toolbar"><div title="" role="toolbar" data-alloy-tabstop="true" tabindex="-1" class="tox-toolbar__group"><button aria-label="Undo" title="Undo" type="button" tabindex="-1" class="tox-tbtn" aria-disabled="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M6.4 8H12c3.7 0 6.2 2 6.8 5.1.6 2.7-.4 5.6-2.3 6.8a1 1 0 0 1-1-1.8c1.1-.6 1.8-2.7 1.4-4.6-.5-2.1-2.1-3.5-4.9-3.5H6.4l3.3 3.3a1 1 0 1 1-1.4 1.4l-5-5a1 1 0 0 1 0-1.4l5-5a1 1 0 0 1 1.4 1.4L6.4 8z" fill-rule="nonzero"></path></svg></span></button><button aria-label="Redo" title="Redo" type="button" tabindex="-1" class="tox-tbtn tox-tbtn--disabled" aria-disabled="true"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M17.6 10H12c-2.8 0-4.4 1.4-4.9 3.5-.4 2 .3 4 1.4 4.6a1 1 0 1 1-1 1.8c-2-1.2-2.9-4.1-2.3-6.8.6-3 3-5.1 6.8-5.1h5.6l-3.3-3.3a1 1 0 1 1 1.4-1.4l5 5a1 1 0 0 1 0 1.4l-5 5a1 1 0 0 1-1.4-1.4l3.3-3.3z" fill-rule="nonzero"></path></svg></span></button></div><div title="" role="toolbar" data-alloy-tabstop="true" tabindex="-1" class="tox-toolbar__group"><button aria-label="Bold" title="Bold" type="button" tabindex="-1" class="tox-tbtn" aria-pressed="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M7.8 19c-.3 0-.5 0-.6-.2l-.2-.5V5.7c0-.2 0-.4.2-.5l.6-.2h5c1.5 0 2.7.3 3.5 1 .7.6 1.1 1.4 1.1 2.5a3 3 0 0 1-.6 1.9c-.4.6-1 1-1.6 1.2.4.1.9.3 1.3.6s.8.7 1 1.2c.4.4.5 1 .5 1.6 0 1.3-.4 2.3-1.3 3-.8.7-2.1 1-3.8 1H7.8zm5-8.3c.6 0 1.2-.1 1.6-.5.4-.3.6-.7.6-1.3 0-1.1-.8-1.7-2.3-1.7H9.3v3.5h3.4zm.5 6c.7 0 1.3-.1 1.7-.4.4-.4.6-.9.6-1.5s-.2-1-.7-1.4c-.4-.3-1-.4-2-.4H9.4v3.8h4z" fill-rule="evenodd"></path></svg></span></button><button aria-label="Italic" title="Italic" type="button" tabindex="-1" class="tox-tbtn" aria-pressed="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M16.7 4.7l-.1.9h-.3c-.6 0-1 0-1.4.3-.3.3-.4.6-.5 1.1l-2.1 9.8v.6c0 .5.4.8 1.4.8h.2l-.2.8H8l.2-.8h.2c1.1 0 1.8-.5 2-1.5l2-9.8.1-.5c0-.6-.4-.8-1.4-.8h-.3l.2-.9h5.8z" fill-rule="evenodd"></path></svg></span></button><button aria-label="Underline" title="Underline" type="button" tabindex="-1" class="tox-tbtn" aria-pressed="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M16 5c.6 0 1 .4 1 1v5.5a4 4 0 0 1-.4 1.8l-1 1.4a5.3 5.3 0 0 1-5.5 1 5 5 0 0 1-1.6-1c-.5-.4-.8-.9-1.1-1.4a4 4 0 0 1-.4-1.8V6c0-.6.4-1 1-1s1 .4 1 1v5.5c0 .3 0 .6.2 1l.6.7a3.3 3.3 0 0 0 2.2.8 3.4 3.4 0 0 0 2.2-.8c.3-.2.4-.5.6-.8l.2-.9V6c0-.6.4-1 1-1zM8 17h8c.6 0 1 .4 1 1s-.4 1-1 1H8a1 1 0 0 1 0-2z" fill-rule="evenodd"></path></svg></span></button><button title="Font sizes" aria-label="Font sizes" aria-haspopup="true" type="button" unselectable="on" tabindex="-1" class="tox-tbtn tox-tbtn--select tox-tbtn--bespoke" aria-expanded="false" style="user-select: none;"><span class="tox-tbtn__select-label">14pt</span><div class="tox-tbtn__select-chevron"><svg width="10" height="10"><path d="M8.7 2.2c.3-.3.8-.3 1 0 .4.4.4.9 0 1.2L5.7 7.8c-.3.3-.9.3-1.2 0L.2 3.4a.8.8 0 0 1 0-1.2c.3-.3.8-.3 1.1 0L5 6l3.7-3.8z" fill-rule="nonzero"></path></svg></div></button></div><div title="" role="toolbar" data-alloy-tabstop="true" tabindex="-1" class="tox-toolbar__group"><button aria-label="Insert/edit link" title="Insert/edit link" type="button" tabindex="-1" class="tox-tbtn" aria-pressed="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M6.2 12.3a1 1 0 0 1 1.4 1.4l-2.1 2a2 2 0 1 0 2.7 2.8l4.8-4.8a1 1 0 0 0 0-1.4 1 1 0 1 1 1.4-1.3 2.9 2.9 0 0 1 0 4L9.6 20a3.9 3.9 0 0 1-5.5-5.5l2-2zm11.6-.6a1 1 0 0 1-1.4-1.4l2-2a2 2 0 1 0-2.6-2.8L11 10.3a1 1 0 0 0 0 1.4A1 1 0 1 1 9.6 13a2.9 2.9 0 0 1 0-4L14.4 4a3.9 3.9 0 0 1 5.5 5.5l-2 2z" fill-rule="nonzero"></path></svg></span></button></div><div title="" role="toolbar" data-alloy-tabstop="true" tabindex="-1" class="tox-toolbar__group"><button aria-haspopup="true" type="button" data-alloy-tabstop="true" unselectable="on" tabindex="-1" class="tox-tbtn tox-tbtn--select" aria-expanded="false" style="user-select: none;"><span class="tox-tbtn__select-label">Tags</span><div class="tox-tbtn__select-chevron"><svg width="10" height="10"><path d="M8.7 2.2c.3-.3.8-.3 1 0 .4.4.4.9 0 1.2L5.7 7.8c-.3.3-.9.3-1.2 0L.2 3.4a.8.8 0 0 1 0-1.2c.3-.3.8-.3 1.1 0L5 6l3.7-3.8z" fill-rule="nonzero"></path></svg></div></button></div></div></div><div class="tox-anchorbar"></div></div><div aria-hidden="true" class="tox-throbber" style="display: none;"></div></div><div class="tox tox-silver-sink tox-tinymce-aux" style="position: relative; display: none;"></div><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><grammarly-popups data-grammarly-shadow-root="true" class="dnXmp" style="--rem: 16;"></grammarly-popups><grammarly-extension-vbar-card data-grammarly-shadow-root="true" class="dnXmp" style="--rem: 16;"></grammarly-extension-vbar-card><grammarly-extension-vbars-feedback-form data-grammarly-shadow-root="true" class="dnXmp" style="--rem: 16;"></grammarly-extension-vbars-feedback-form><div class="builder-tool builder-select-outline" style="top: 14629.2px; height: 158.372px; width: 970px; left: 54.1667px;"></div><div class="builder-tool builder-outline-selected-controls" style="top: 14744.6px; left: 892.667px;">
+<ul>
+ <li class="builder-action-selected-button builder-select-parent-button" data-toggle="tooltip" title="Select" parent="">
+<span class="material-icons-outlined" style="font-size:22px">arrow_upward</span>
+ </li>
+<!-- <li class="builder-action-selected-button builder-add-widget-button" data-toggle="tooltip" title="Add widget"><i class="fa fa-plus"></i></li> -->
+ <li class="builder-action-selected-button builder-remove-selected-button" data-toggle="tooltip" title="Delete">
+<span class="material-icons-outlined" style="font-size:22px">delete</span>
+ </li>
+<li class="builder-action-selected-button builder-duplicate-selected-button" data-toggle="tooltip" title="Duplicate">
+ <span class="material-icons-outlined" style="font-size:17px">filter_none</span>
+</li>
+ <li class="builder-action-selected-button builder-code-selected-button" data-toggle="tooltip" title="Edit" html="">
+<span class="material-icons-outlined" style="font-size:22px">code</span>
+ </li>
+</ul>
+</div></body></html>
